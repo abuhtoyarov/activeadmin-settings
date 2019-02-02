@@ -1,4 +1,4 @@
-class CreateActiveadminSettingsPictures < ActiveRecord::Migration
+class CreateActiveadminSettingsPictures < ActiveRecord::Migration[5.2]
   def change
     create_table :activeadmin_settings_pictures do |t|
       t.string :data

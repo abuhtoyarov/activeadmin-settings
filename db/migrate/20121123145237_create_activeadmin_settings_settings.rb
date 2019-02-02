@@ -1,4 +1,4 @@
-class CreateActiveadminSettingsSettings < ActiveRecord::Migration
+class CreateActiveadminSettingsSettings < ActiveRecord::Migration[5.2]
   def change
     create_table :activeadmin_settings_settings do |t|
       t.string :name

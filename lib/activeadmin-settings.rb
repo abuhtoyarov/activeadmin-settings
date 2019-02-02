@@ -1,4 +1,5 @@
 require "activeadmin-settings/version"
+require 'carrierwave'
 
 module ActiveadminSettings
   def self.table_name_prefix

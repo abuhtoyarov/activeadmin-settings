@@ -1,4 +1,4 @@
-class AddLocaleToActiveadminSettingsSettings < ActiveRecord::Migration
+class AddLocaleToActiveadminSettingsSettings < ActiveRecord::Migration[5.2]
   def up
     add_column :activeadmin_settings_settings, :locale, :string
 
